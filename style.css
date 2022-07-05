@@ -10,6 +10,7 @@ html {
     width: 100%;
     height: 100%;
 }
+
 /*--------------------------------------------
             Banner Part CSS Start
 ---------------------------------------------*/
@@ -24,9 +25,11 @@ html {
     color: white;
     margin-bottom: 100px;
 }
+
 .top-banner h1 {
     font-size: 60px;
 }
+
 .link-button {
     text-decoration: none;
     background-color: tomato;
@@ -40,6 +43,7 @@ html {
 .banner-div p {
     margin-bottom: 30px;
 }
+
 .banner-div {
     display: flex;
     align-items: center;
@@ -49,6 +53,7 @@ html {
     justify-content: center;
     background-image: linear-gradient(360deg, black, transparent);
 }
+
 /*--------------------------------------------
             Banner Part CSS End
 ---------------------------------------------*/
@@ -61,6 +66,7 @@ html {
     text-align: center;
     min-width: 700px;
 }
+
 .donation-today ul {
     align-items: center;
     justify-content: center;
@@ -70,6 +76,7 @@ html {
     list-style-type: none;
     margin: 25px;
 }
+
 .donation-today ul li {
     padding: 30px;
     margin: 15px;
@@ -82,6 +89,7 @@ html {
     background-color: rgb(255, 255, 255);
     color: gray;
 }
+
 #active {
     border: 2px solid tomato;
     color: tomato;
@@ -91,8 +99,10 @@ html {
     border-radius: 5px;
 
 }
+
 .heading-part {
     text-align: center;
+
 }
 
 .heading-part p {
@@ -104,6 +114,7 @@ html {
     font-weight: bold;
     padding: 20px;
 }
+
 .donation-today input[type=Number] {
     text-align: center;
     border: none;
@@ -114,8 +125,9 @@ html {
     font-size: 18px;
     padding: 6px;
     margin: 20px auto;
-    
+
 }
+
 .link-button-donate {
     padding: 15px 20px;
     border-radius: 5px;
@@ -126,7 +138,61 @@ html {
     align-items: center;
     text-align: center;
     background-color: tomato;
+    margin-bottom: 100px;
 }
+
 /*-------------------------------------------
              Donation Today Part End
 --------------------------------------------*/
+
+/*-------------------------------------------
+             Donation Plan Part Start
+--------------------------------------------*/
+.donation-plan{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.plan-item{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.plan-item .itemOne{
+    padding: 50px 20px;
+    line-height: 1.7;
+    width: 32%;
+}
+.img{
+    padding-bottom: 20px;
+}
+#P-item1{
+    background-color: #edf5f6;
+}
+#P-item2{
+    background-color: #ffeeee;
+}
+#P-item3{
+    background-color: #fff4d6;
+}
+.plan-paragraph{
+    margin-bottom: 40px;
+}
+/*-------------------------------------------
+             Donation Plan Part End
+--------------------------------------------*/
+
+.footer-part{
+    padding:50px ;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+    color: lightgray;
+}
+
+.footer-part h1{
+    color: tomato;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

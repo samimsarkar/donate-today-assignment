@@ -10,7 +10,9 @@ html {
     width: 100%;
     height: 100%;
 }
-
+/*--------------------------------------------
+            Banner Part CSS Start
+---------------------------------------------*/
 .top-banner {
     background: url(images/donation0.jpg);
     background-repeat: no-repeat;
@@ -20,8 +22,8 @@ html {
     height: 100%;
     text-align: center;
     color: white;
+    margin-bottom: 100px;
 }
-
 .top-banner h1 {
     font-size: 60px;
 }
@@ -34,6 +36,7 @@ html {
     border-radius: 5px;
     font-weight: bold;
 }
+
 .banner-div p {
     margin-bottom: 30px;
 }
@@ -46,3 +49,84 @@ html {
     justify-content: center;
     background-image: linear-gradient(360deg, black, transparent);
 }
+/*--------------------------------------------
+            Banner Part CSS End
+---------------------------------------------*/
+/*---------------------------------------------
+            Donation Today Part Start
+---------------------------------------------*/
+.donation-today {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    min-width: 700px;
+}
+.donation-today ul {
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    display: flex;
+    padding: 30px 50px;
+    list-style-type: none;
+    margin: 25px;
+}
+.donation-today ul li {
+    padding: 30px;
+    margin: 15px;
+    max-width: 100px;
+    min-width: 100px;
+    justify-content: center;
+    display: flex;
+    min-height: 100px;
+    min-height: 100px;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+}
+#active {
+    border: 2px solid tomato;
+    color: tomato;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffeeee;
+    border-radius: 5px;
+
+}
+.heading-part {
+    text-align: center;
+}
+
+.heading-part p {
+    color: gray;
+}
+
+.heading-part h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+.donation-today input[type=Number] {
+    text-align: center;
+    border: none;
+    display: block;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    width: 65%;
+    font-size: 18px;
+    padding: 6px;
+    margin: 20px auto;
+    
+}
+.link-button-donate {
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: tomato;
+}
+/*-------------------------------------------
+             Donation Today Part End
+--------------------------------------------*/

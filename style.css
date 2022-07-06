@@ -15,7 +15,7 @@ html {
             Banner Part CSS Start
 ---------------------------------------------*/
 .top-banner {
-    background: url(images/banner01.jpg);
+    background: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -91,7 +91,8 @@ html {
 }
 
 #active {
-    border: 2px solid#FF5959;;
+    border: 2px solid#FF5959;
+    ;
     background-color: #FF5959;
     justify-content: center;
     text-align: center;
@@ -149,46 +150,55 @@ html {
 /*-------------------------------------------
              Donation Plan Part Start
 --------------------------------------------*/
-.donation-plan{
+.donation-plan {
     margin: 0 auto;
     max-width: 1000px;
 }
-.plan-item{
+
+.plan-item {
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin-bottom: 100px;
 }
-.plan-item .itemOne{
+
+.plan-item .itemOne {
     padding: 50px 20px;
     line-height: 1.7;
     width: 32%;
 }
-.img{
+
+.img {
     padding-bottom: 20px;
 }
-#P-item1{
+
+#P-item1 {
     background-color: #edf5f6;
 }
-#P-item2{
+
+#P-item2 {
     background-color: #ffeeee;
 }
-#P-item3{
+
+#P-item3 {
     background-color: #fff4d6;
 }
-.plan-paragraph{
+
+.plan-paragraph {
     margin-bottom: 40px;
 }
+
 /*-------------------------------------------
-             Donation Plan Part End
+             Our Volunteer Part Start
 --------------------------------------------*/
-.our-volunteers{
+.our-volunteers {
     align-items: center;
     text-align: center;
     justify-items: center;
-    
+
 }
-.volunteers-gallery{
+
+.volunteers-gallery {
     display: flex;
     align-items: center;
     text-align: center;
@@ -196,7 +206,8 @@ html {
     margin-left: 110px;
     margin-bottom: 100px;
 }
-.volunteers-gallery img{
+
+.volunteers-gallery img {
     width: 15%;
     height: auto;
     text-align: center;
@@ -207,16 +218,23 @@ html {
     transition: 0.3;
     cursor: pointer;
 }
-.volunteers-gallery img:hover{
+
+.volunteers-gallery img:hover {
     width: 20%;
     opacity: 1;
 }
 
-
-
-
-
-.email-part input[type=email]{
+/*-------------------------------------------
+             Our Volunteer Part End
+--------------------------------------------*/
+/*-------------------------------------------
+             Gets Update Part Start
+--------------------------------------------*/
+.update-part {
+    width: 700px;
+    margin: auto;
+}
+.email-part input[type=email] {
     padding: 15px 50px;
     border: none;
     color: gray;
@@ -225,7 +243,8 @@ html {
     display: inline-block;
     border-bottom-right-radius: 0;
 }
-.email-part{
+
+.email-part {
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -233,14 +252,12 @@ html {
     background-color: #fff4d6;
     background-size: 50% auto;
     width: 100%;
-    
-    
-    
 }
-.email-part ::placeholder{
+
+.email-part ::placeholder {
     padding-left: 10px;
 }
-.subscribe-btn{
+.subscribe-btn {
     padding: 15px 30px;
     background-color: #FF5959;
     font-weight: bold;
@@ -248,17 +265,23 @@ html {
     border: none;
     border-left: 0;
     display: inline-block;
-    border-radius: 5px;
-    margin-left: 0 auto;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     cursor: pointer;
+}
+.update-part input {
+    margin-left: -15px;
 
 }
+/*-------------------------------------------
+             Gets Update Part End
+--------------------------------------------*/
 
 /*-------------------------------------------
              Footer Part Start
 --------------------------------------------*/
-.footer-part{
-    padding:50px ;
+.footer-part {
+    padding: 50px;
     text-align: center;
     margin: 0 auto;
     width: 100%;
@@ -267,7 +290,7 @@ html {
     color: lightgray;
 }
 
-.footer-part h1{
+.footer-part h1 {
     color: tomato;
     font-family: 'Lobster', cursive;
 }

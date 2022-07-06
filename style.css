@@ -15,7 +15,7 @@ html {
             Banner Part CSS Start
 ---------------------------------------------*/
 .top-banner {
-    background: url(images/donation0.jpg);
+    background: url(images/banner01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -32,7 +32,7 @@ html {
 
 .link-button {
     text-decoration: none;
-    background-color: tomato;
+    background-color: #FF5959;
     color: white;
     padding: 15px 30px;
     margin-top: 20px;
@@ -91,8 +91,8 @@ html {
 }
 
 #active {
-    border: 2px solid tomato;
-    color: tomato;
+    border: 2px solid#FF5959;;
+    background-color: #FF5959;
     justify-content: center;
     text-align: center;
     background-color: #ffeeee;
@@ -137,8 +137,9 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: tomato;
+    background-color: #FF5959;
     margin-bottom: 100px;
+    cursor: pointer;
 }
 
 /*-------------------------------------------
@@ -156,6 +157,7 @@ html {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    margin-bottom: 100px;
 }
 .plan-item .itemOne{
     padding: 50px 20px;
@@ -180,7 +182,81 @@ html {
 /*-------------------------------------------
              Donation Plan Part End
 --------------------------------------------*/
+.our-volunteers{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    
+}
+.volunteers-gallery{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    margin-left: 110px;
+    margin-bottom: 100px;
+}
+.volunteers-gallery img{
+    width: 15%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+    opacity: 0.9;
+    transition: 0.3;
+    cursor: pointer;
+}
+.volunteers-gallery img:hover{
+    width: 20%;
+    opacity: 1;
+}
 
+
+
+
+
+.email-part input[type=email]{
+    padding: 15px 50px;
+    border: none;
+    color: gray;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    display: inline-block;
+    border-bottom-right-radius: 0;
+}
+.email-part{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 70px 70px;
+    background-color: #fff4d6;
+    background-size: 50% auto;
+    width: 100%;
+    
+    
+    
+}
+.email-part ::placeholder{
+    padding-left: 10px;
+}
+.subscribe-btn{
+    padding: 15px 30px;
+    background-color: #FF5959;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-left: 0;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 0 auto;
+    cursor: pointer;
+
+}
+
+/*-------------------------------------------
+             Footer Part Start
+--------------------------------------------*/
 .footer-part{
     padding:50px ;
     text-align: center;
@@ -193,6 +269,8 @@ html {
 
 .footer-part h1{
     color: tomato;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lobster', cursive;
 }
-
+/*-------------------------------------------
+             Footer Part End
+--------------------------------------------*/
